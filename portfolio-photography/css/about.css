@@ -1,0 +1,104 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF7F4;
+    color: #333;
+}
+
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FFF3EE;
+}
+
+.about-us h1 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 30px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+    color: #000;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #F5F0EE;
+}
+
+.image-section img {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.journey {
+    background-color: #F0DAD6;
+    padding: 50px 20px;
+    margin-top: -197px;
+    height: 500px;
+}
+
+.journey h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: #333;
+    margin-top: 280px;
+}
+
+.journey-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.journey-image {
+    flex: 1;
+}
+
+.journey-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.journey-text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.journey-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .journey-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .journey-image,
+    .journey-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .journey-text p {
+        font-size: 16px;
+    }
+}
